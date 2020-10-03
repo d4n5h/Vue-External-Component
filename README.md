@@ -1,6 +1,9 @@
 # Vue-External-Component
 Utility library for importing external/remote Vue components. ([As seen here](https://markus.oberlehner.net/blog/distributed-vue-applications-loading-components-via-http/))
 
+## Server setup:
+https://github.com/d4n5h/Vue-Component-Repository
+
 ## Install:
 ```bash
 $ npm install vue-external-component
