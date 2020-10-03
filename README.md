@@ -6,15 +6,19 @@ Utility library for importing external/remote Vue components. ([As seen here](ht
 $ npm install vue-external-component
 ```
 ## Example:
-```javascript
+```vue
+<template>
+    <MyComponent/>
+</template>
+
+<script>
 import externalComponent from 'vue-external-component';
-
-const MyComponent = () => externalComponent('http://localhost:8200/MyComponent/MyComponent.c9c0abb8e999d0e5654e.umd.min.js');
-
+const MyComponent = () => externalComponent(`http://localhost:8200/MyComponent/MyComponent.c9c0abb8e999d0e5654e.umd.min.js`);
 export default {
-  name: 'MyOtherComponent',
+  name: `App`,
   components: {
     MyComponent,
-  }
-}
+  },
+};
+</script>
 ```
