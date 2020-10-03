@@ -1,0 +1,28 @@
+{
+  "name": "vue-external-component",
+  "version": "1.0.0",
+  "description": "Vue.js external component import (from remote server) for distributed component management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4n5h/Vue-External-Component.git"
+  },
+  "keywords": [
+    "vue",
+    "external",
+    "remote",
+    "component",
+    "components",
+    "vuejs",
+    "vue.js"
+  ],
+  "author": "Daniel Shlomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4n5h/Vue-External-Component/issues"
+  },
+  "homepage": "https://github.com/d4n5h/Vue-External-Component#readme"
+}
