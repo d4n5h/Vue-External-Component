@@ -1,6 +1,6 @@
 {
   "name": "vue-external-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js external component import (from remote server) for distributed component management.",
   "main": "index.js",
   "scripts": {
